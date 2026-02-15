@@ -69,3 +69,20 @@ print("O dobro é:", dobro)
 print(int(3.9)) # Saída: 3
 print(int(7.1)) # Saída: 7
 print(int(-2.8)) # Saída: -2
+
+# 7. Função float() - Conversão para decimal
+# Convertendo string para float
+
+altura = input("Digite sua altura em metros: ")
+altura_float = float(altura)
+print("Sua altura é:", altura_float, "metros")
+
+# Conversão direta
+
+preco = float(input("Digite o preco: R$ "))
+desconto = preco * 0.1
+print("Desconto de 10%: R$", desconto)
+
+# Convertendo int para float
+print(float(5)) # Saída: 5.0
+print(float(10)) # Saída: 10.0
