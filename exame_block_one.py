@@ -50,3 +50,22 @@ print("Olá,", nome)
 # Input sempre retorna string
 idade = input("Digite sua idade: ")
 print("Você digitou:", idade, "- Tipo:", type(idade))
+
+# 6. Função int() - Conversão para inteiro
+# Convertendo string para inteiro
+
+idade = input("Digite sua idade: ")
+idade_int = int(idade)
+print("Daqui a 5 anos você terá: ", idade_int + 5)
+
+# Conversão direta
+
+numero = int(input("Digite um número: "))
+dobro = numero * 2
+print("O dobro é:", dobro)
+
+# Convertendo float para int (remove decimais)
+
+print(int(3.9)) # Saída: 3
+print(int(7.1)) # Saída: 7
+print(int(-2.8)) # Saída: -2
